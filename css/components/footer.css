@@ -1,0 +1,29 @@
+.footer {
+  color: #0D1321;
+  padding: 2em;
+  position: relative;
+}
+
+.footer::after{
+  content: "";
+  padding: 2em;
+  background-image: url("../../images/pexels-emiliano-arano-3608311.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.footer p {
+  font-size: 8px;
+  text-align: center;
+}
+
+footer.img {
+  opacity: 50%;
+}

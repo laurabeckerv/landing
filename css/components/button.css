@@ -1,0 +1,32 @@
+.btn-contact {
+  background-color:#FAF9F9;
+  color: #0D1321;
+  border: 1px solid #0D1321;
+  padding: 15px 25px;
+  margin: 0em 3em;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.btn-contact:hover {
+  color: #89B0AE;
+  border: 1px solid #89B0AE;
+  opacity: 1;
+  text-decoration: none;
+}
+
+
+.btn-forward {
+  background-color: #89B0AE;
+  color: #FAF9F9;
+  padding: 15px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.btn-forward:hover {
+  background-color: #BEE3DB;
+  text-decoration: none;
+}

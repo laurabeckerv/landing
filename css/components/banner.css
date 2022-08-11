@@ -1,0 +1,33 @@
+.banner-container {
+  color: #0D1321;
+  padding: 4em 16em;
+  position: relative;
+}
+
+.banner-container::after{
+  content: "";
+  padding: 4em 8em;
+  background-image: url("../../images/pexels-emiliano-arano-3608311.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.banner h1 {
+  color: #0D1321;
+  text-shadow: 1px 1px 3px rgb(13 19 33 / 20%);
+}
+
+.banner p {
+  margin: 3em 0em;
+}
+
+.banner a {
+  margin: 3em 0em;
+}
